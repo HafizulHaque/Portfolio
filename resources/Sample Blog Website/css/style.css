@@ -1,0 +1,222 @@
+																			/* some common styling goes here */
+
+
+*{
+	border:0px;
+	padding:0px;
+	outline:0px;
+}
+
+.template{
+	width:960px;
+	margin:0px auto;
+}
+.clear{
+	overflow:hidden;
+}
+
+body{
+	background: #ddd;
+}
+
+																			/*  header section styling goes here  */
+
+.headerSection{
+	background:#999;
+}
+
+.logoDiv{
+	float:left;
+}
+.headerTitle{
+	float:left;
+}
+
+.headerTitle h1 {
+	margin-top: 24px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	font-size: 48px;
+}
+
+.headerTitle h4 {
+	margin-top: 0px;
+	margin-left: 15px;
+	font-size: 18px;
+	color: #1F1F1F;
+}
+
+.socialIcons{
+	padding:10px;
+	float:right;
+}
+
+.socialIcons a {
+	color:#434343;
+	display:list;
+	font-size:40px;
+	margin-right:10px;
+	background:#CACACA;
+	border-radius:4px;
+}
+																										/* navigtion section styling goes here */
+
+
+.navSection{
+	background:#666;
+	
+}
+.navSection ul{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+} 
+.navSection ul li {
+	display: block;
+	float: left;
+	padding: 10px 20px;
+	border-right: 1px solid #999999;
+	border-left: 3px solid #373737;
+}
+
+
+.navSection ul li:first-child{
+	border-left:0px solid #373737;
+}
+
+.navSection ul li:last-child{
+	border-right: 1px solid #373737;
+}
+.navSection ul li a {
+	color: #000;
+	text-decoration: none;
+	font-size: 22px;
+}
+.navSection ul li a:hover{
+	color:#999999;
+}
+																										/* content section styling goes here */
+.contentSection{
+	background: #ccc;
+}
+
+.mainconetntSection {
+	float: left;
+	width: 70%;
+	border-right: 1px solid #B2B2B2;
+}
+
+.recentPosts, .popularPosts {
+	padding: 5px 10px;
+}
+
+.mainPostItem{
+	padding: 5px 20px 5px 5px;
+	
+}
+
+.mainPostItem a{
+	text-decoration:none;
+	font-size:24px;
+	color: #666666;
+}
+.mainPostItem a:hover {
+	color: #4A4A4A;
+}
+.mainPostItem a h2 {
+	margin: 10px 30px 10px 0px;
+	padding-bottom: 3px;
+	border-bottom: 2px solid #9D9D9C;
+}
+.mainPostItem a img {
+	width: 250px;
+	height: 150px;
+	float: left;
+	margin: 0px 9px 0px 0px;
+	background: #fff;
+	padding: 4px;
+	border: 2px solid #9B9B9B;
+}
+.mainPostItem p {
+	text-align: justify;
+	font-size: 18px;
+	margin: 0px;
+}
+
+.readMore {
+	float: right;
+	padding: 0px 10px;
+	background: #C2C2C2;
+	border: 1px solid #B7B7A7;
+	border-radius: 15px;
+	margin: 12px 10px;
+}
+
+
+.sidebarSection{
+	float:right;
+	width:29%;
+}
+
+
+.recentPosts h2, .popularPosts h2 {
+	background: #999999;
+	text-align: center;
+	padding: 5px;
+	border-bottom: 3px solid #666666;
+	margin: 15px 0px;
+}
+
+.recentPosts p {
+	margin: 10px;
+	background: #CACACA;
+	padding: 2px;
+	border-bottom: 1px solid #999999;
+	font-size:16px;
+}
+.recentPosts p a{
+	text-decoration:none;
+	color:#7C0086;
+}
+.recentPosts p a:hover{
+	color:#C246CC;
+}
+
+.popularPostItem{
+	margin: 6px 0px;
+}
+.popularPostItem a {
+	text-decoration: none;
+	color: #7C0086;
+}
+.popularPostItem a:hover{
+	color:#C246CC;
+}
+
+.popularPostItem a h3 {
+	border-bottom: 1px solid #AFAFAF;
+	padding-bottom: 5px;
+	margin: 5px 0px;
+}
+.popularPostItem a img {
+	width: 80px;
+	float: left;
+	margin-right: 8px;
+	margin-top: 5px;
+}
+.popularPostItem p {
+	text-align: justify;
+	margin: 5px 0px;
+	font-size: 14px;
+}
+
+                                                                                                              /* footer section styling goes here */
+.footerSection{
+	background:#999999;
+}
+
+.footerSection h2{
+	font-size:18px;
+	text-align:center;
+	padding:10px;
+}

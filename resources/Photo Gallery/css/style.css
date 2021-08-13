@@ -1,0 +1,103 @@
+/* outer style  */
+
+*, *::before, *::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba( 0, 150, 0, .1);
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* header style  */
+
+header {
+  margin-top: 20px;
+  padding: 50px 40px;
+  display: grid;
+  grid-template-columns: 30% auto;
+  background-image: linear-gradient(to bottom, rgb(0, 128, 255), rgba(250, 128, 114));
+}
+
+.logo {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo > h1 {
+  color: rgb(80, 0, 255);
+  font-size: 3.5em;
+  text-shadow: 3px 3px 3px rgba(250, 128, 114);
+}
+
+nav {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-evenly;
+  align-items: end;
+}
+
+nav > .navItem {
+  padding: 5px 20px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 128, 255, 0.4);
+  color:rgb(0, 128, 255);
+}
+
+nav > .navItem:hover {
+  background-color: rgba(0, 128, 255, .5);
+  color:rgba(250, 128, 114);
+  border: 1px solid rgba(250, 128, 114);
+}
+
+nav > .navItem > a{
+  text-decoration: none;
+  cursor: pointer;
+  color: inherit;
+  font-size: 1.5em;
+  text-transform: capitalize;
+}
+
+/* main body style  */
+
+#photoContainer {
+  background-color: rgba(250, 128, 114, 0.2);
+  display: grid;
+  padding: 10px 0;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+}
+
+#photoContainer > .photo {
+  text-align: center;
+}
+
+#photoContainer > .photo > img {
+  width: 400px;
+  height: 250px;
+  padding: 10px;
+  border: 2px solid rgba(250, 128, 114, 0.4);
+  border-radius: 5px;
+}
+
+
+/* footer style  */
+
+footer {
+  background-image: linear-gradient(to bottom, rgb(0, 128, 255), rgba(250, 128, 114));
+  padding: 10px 0px;
+  margin-bottom: 20px;
+}
+
+footer > h3 {
+  text-align: center;
+  color: rgb(80, 0, 255);
+  text-shadow: 3px 3px 3px rgba(250, 128, 114);
+}

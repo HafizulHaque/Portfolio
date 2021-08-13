@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  background: #ffffff url("../img/zigzac_bg.jpg") repeat left top fixed;
+  font-family: "Poppins", sans-serif;
+}
+
+/* header  */
+
+header {
+  background: #293e4f;
+  color: #fff;
+  display: flex;
+}
+
+.logo {
+  flex: 1;
+}
+
+nav {
+  flex: 2;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.logo > img {
+  width: 500px;
+}
+
+/* main  */
+
+.container {
+  padding: 0;
+  margin: 0 auto;
+}
+
+main {
+  background: #ccc;
+  padding: 0;
+  margin: 0;
+}
+
+#imageContainer {
+  position: relative;
+}
+
+#imageContainer > img {
+  max-width: 100%;
+}
+
+#text {
+  position: absolute;
+  top: 100px;
+  right: 40px;
+}
+
+#text > p {
+  text-align: right;
+  color: #293e4f;
+  font-size: 2em;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+}
+
+#text > #dev {
+  font-size: 3.5em;
+  font-weight: 700;
+}
+
+/* showcase  */
+
+#showcase > h2 {
+  margin-top: 50px;
+  font-weight: 600;
+  text-align: center;
+}
+
+#showcase hr {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 5px;
+}
+
+.item {
+  flex-basis: 49%;
+  margin-bottom: 50px;
+  padding: 20px;
+  border: 2px solid #eee;
+  border-radius: 20px;
+}
+
+.item:hover {
+  box-shadow: 4px 4px 5px gray;
+}
+
+.item > a {
+  text-decoration: none;
+  color: #000;
+}
+
+.item > a > h3 {
+  margin-top: 20px;
+}
+
+.item > a > h3:hover {
+  text-decoration: underline;
+}
+
+.view > img {
+  max-width: 100%;
+}
+
+/* footer  */
+
+footer.container {
+  background: #293e4f;
+  padding: 10px;
+}
+
+footer.container > p {
+  text-align: center;
+  color: yellow;
+}
