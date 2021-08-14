@@ -1,0 +1,16 @@
+.step{
+  padding: 20px 0;
+}
+
+.step .stepTitle{
+  text-align: center;
+}
+
+#finalMsg{
+  text-align: center;
+  color: #fff;
+}
+
+.hide{
+  display: none;
+}
