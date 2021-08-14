@@ -11,7 +11,7 @@ Click on this link to [See Live Demo](https://hafizulhaque.github.io/Portfolio/
 
 > ### [Project-01: Landing Page: CUET Central Library](https://hafizulhaque.github.io/Portfolio/resources/CUET%20Library%20Homepage/index.html)
 
-![project 01 ss](./img/ss/Central Library.jpeg)
+![project-01 ss](./img/ss/Central%20Library.jpeg)
 
 Did this page design as a assignment on DBMS course. Implemented this web interface and worked with database in the backend. Although only the landing page of Central Library, CUET is shown here.
 
